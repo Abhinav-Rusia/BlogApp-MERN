@@ -46,18 +46,6 @@ npm install
 npm run dev
 ```
 
-## 🌐 Deployment
-
-**Backend:** Already deployed on Vercel ✅
-**Frontend:** Ready for Netlify deployment
-
-### Deploy Frontend to Netlify:
-1. Connect this GitHub repo to Netlify
-2. Set build directory: `Frontend`
-3. Set build command: `npm run build`
-4. Set publish directory: `Frontend/dist`
-5. Add environment variable: `VITE_API_URL=https://beyondbackend.vercel.app/api`
-
 ## 👨‍💻 Author
 
 Built by Abhinav Rusia
