@@ -1,124 +1,63 @@
-# Beyond Ink Blog - Full Stack Application
+# Beyond Ink Blog
 
-A modern, full-stack blog application built with React and Node.js.
+A simple, full-stack blog application built with React and Node.js.
 
-## 🚀 Project Structure
+## 🚀 Live Demo
+
+- **Frontend**: Coming soon (Netlify)
+- **Backend API**: https://beyondbackend.vercel.app
+
+## 📁 Project Structure
 
 ```
-├── Backend/          # Node.js/Express API server
+├── Backend/          # Node.js API server
 ├── Frontend/         # React application
-├── README.md         # This file
-└── .gitignore       # Git ignore rules
+└── README.md         # Project info
 ```
 
-## 🛠️ Technology Stack
+## 🛠️ Built With
 
-### Frontend
-- **React 18** - UI library
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Router** - Client-side routing
-- **Axios** - HTTP client
-- **React Quill** - Rich text editor
+**Frontend:** React, Tailwind CSS, Vite
+**Backend:** Node.js, Express, MongoDB
+**Deployment:** Netlify + Vercel
+
+## ✨ Features
+
+- 📝 Create and edit blog posts
+- 👤 User authentication
+- 💬 Comment system
+- 🔍 Search and filter posts
+- 📱 Mobile responsive
+- 🎨 Clean, simple design
+
+## 🚀 Quick Start
 
 ### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **MongoDB** - Database
-- **Mongoose** - ODM for MongoDB
-- **JWT** - Authentication
-- **Bcrypt** - Password hashing
-- **Multer** - File upload handling
-
-## 🚀 Deployment
-
-### Backend (Vercel)
-- **Live URL**: https://beyondbackend.vercel.app
-- **Status**: ✅ Deployed
-
-### Frontend (Netlify)
-- **Status**: Ready for deployment
-- **Build Command**: `npm run build`
-- **Publish Directory**: `Frontend/dist`
-
-## 📦 Installation & Setup
-
-### Prerequisites
-- Node.js 18+ 
-- MongoDB database
-- Git
-
-### Backend Setup
 ```bash
 cd Backend
 npm install
-cp .env.example .env
-# Configure your environment variables
 npm run dev
 ```
 
-### Frontend Setup
+### Frontend
 ```bash
 cd Frontend
 npm install
-cp .env.example .env
-# Configure your API URL
 npm run dev
 ```
 
-## 🔧 Environment Variables
+## 🌐 Deployment
 
-### Backend (.env)
-```
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=3001
-```
+**Backend:** Already deployed on Vercel ✅
+**Frontend:** Ready for Netlify deployment
 
-### Frontend (.env)
-```
-VITE_API_URL=http://localhost:3001/api
-```
-
-## 📱 Features
-
-- ✅ User authentication (register/login)
-- ✅ Create, edit, delete blog posts
-- ✅ Rich text editor with image support
-- ✅ Comment system
-- ✅ Category filtering
-- ✅ Search functionality
-- ✅ Responsive design
-- ✅ User dashboard
-- ✅ Post view tracking
-
-## 🚀 Deployment Instructions
-
-### Backend (Already Deployed)
-The backend is deployed on Vercel at: `https://beyondbackend.vercel.app`
-
-### Frontend (Deploy to Netlify)
-1. Push this repository to GitHub
-2. Connect Netlify to your GitHub repository
-3. Set build settings:
-   - Base directory: `Frontend`
-   - Build command: `npm run build`
-   - Publish directory: `Frontend/dist`
-4. Set environment variable:
-   - `VITE_API_URL=https://beyondbackend.vercel.app/api`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+### Deploy Frontend to Netlify:
+1. Connect this GitHub repo to Netlify
+2. Set build directory: `Frontend`
+3. Set build command: `npm run build`
+4. Set publish directory: `Frontend/dist`
+5. Add environment variable: `VITE_API_URL=https://beyondbackend.vercel.app/api`
 
 ## 👨‍💻 Author
 
-Built with ❤️ by [Your Name]
+Built by Abhinav Rusia
