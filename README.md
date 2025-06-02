@@ -4,7 +4,7 @@ A simple, full-stack blog application built with React and Node.js.
 
 ## 🚀 Live Demo
 
-- **Frontend**: Coming soon (Netlify)
+- **Frontend**: https://beyondink.netlify.app/
 - **Backend API**: https://beyondbackend.vercel.app
 
 ## 📁 Project Structure
